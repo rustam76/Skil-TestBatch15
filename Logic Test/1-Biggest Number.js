@@ -6,6 +6,7 @@ const maxRedigit = (number) => {
         .split('')
         .sort((a, b) => b - a)
         .join('')
+   
 }
   
   console.log(maxRedigit(123));
